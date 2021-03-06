@@ -1,7 +1,8 @@
 # Wordpot Logging / Log Forwarding
 
 ##### HPFEEDS
-- The log files generated in log/wordpot.log show "hpfeed disabled" by default
+- The log files generated in log/wordpot.log only show when a new session is started by default
+- The only other output in wordpot.log is "hpfeed disabled" 
     - When ENABLE HPFEEDS is set to True in wordpot.conf, the program will not compile
     - Open Issue: [github.com/gbrindisi/wordpot/issues](https://github.com/gbrindisi/wordpot/issues)
     - Currently working on fixing this issue
