@@ -59,7 +59,7 @@
  - Server
     - Edit the rsyslog.conf file located in /etc    
         ```
-        cd /etc/rsyslog.d
+        vim /etc/rsyslog.conf
         ```      
         - Ensure UDP and/or TCP reception are enabled
             ```
